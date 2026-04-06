@@ -47,7 +47,9 @@ export default function Error404() {
       </div>
       {/* <!-- Footer --> */}
       <p className="absolute text-sm text-center text-gray-500 -translate-x-1/2 bottom-6 left-1/2 dark:text-gray-400">
-        &copy; {new Date().getFullYear()} - TailAdmin
+        &copy; {new Date().getFullYear()} - <Link href="https://github.com/reno-25" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+          Moreno
+        </Link>
       </p>
     </div>
   );
